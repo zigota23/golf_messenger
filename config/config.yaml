@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  read_timeout: 15s
+  write_timeout: 15s
+  idle_timeout: 60s
+
+database:
+  max_open_conns: 25
+  max_idle_conns: 10
+  conn_max_lifetime: 5m
+
+logging:
+  level: debug
+  encoding: json
+  output_paths:
+    - stdout
+  error_output_paths:
+    - stderr

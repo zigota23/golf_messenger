@@ -1,0 +1,4 @@
+DROP TABLE IF EXISTS invitations;
+DROP TABLE IF EXISTS ttr_players;
+DROP TABLE IF EXISTS ttr_co_captains;
+DROP TABLE IF EXISTS ttrs;
